@@ -1,0 +1,111 @@
+#principal {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#image {
+  margin-left: 25px;
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: bottom;
+}
+#logo {
+  height: 110px;
+  width: 330px;
+}
+#tlj {
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: bottom;
+  margin-left: 450px;
+}
+#menu {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+.gros {
+  color: white;
+  vertical-align: middle;
+}
+#promo {
+  width: 100%;
+}
+a {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+#menufin {
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+}
+#lu {
+  font-size: 24px;
+}
+section {
+  display: inline-block;
+  width: 1230px;
+}
+#droite {
+  background-color: grey;
+  display: inline-block;
+  vertical-align: top;
+  width: 493px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  #lu {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  #droite {
+    display: none;
+  }
+  .gros {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  #menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #article1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #tlj {
+    margin-left: 50px;
+  }
+  section {
+    width: 100%;
+  }
+  #principal {
+    margin-left: 10px;
+  }
+  hr {
+    width: 100%;
+  }
+  table {
+    font-size: 1.6rem;
+  }
+  #formulaire {
+    font-size: 1.5rem;
+  }
+}
